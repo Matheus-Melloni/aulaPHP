@@ -1,0 +1,25 @@
+*{
+    background-color: rgb(46, 46, 46);
+    
+}
+
+
+h1{
+    color: rgb(255, 174, 0);
+
+}
+
+a{
+    color: white;
+}
+
+button{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+button a{
+    align-items: center;
+}
+
