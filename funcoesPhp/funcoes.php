@@ -207,5 +207,37 @@ class Funcoes {
         $media = $somar/3;
         return "<br><br> resultado da soma é: $somar <br><br> resultado da média: $media";
     }//fim do metodo media ex20
+
+
+
+    public function areaTrapezio(float $num1, float $num2, float $num3) {
+        $baseMaior = $num1;
+        $baseMenor = $num2;
+        $altura = $num3;
+        $areaTrapezio = (($baseMaior + $baseMenor) * $altura) / 2;
+
+        return "<br><br> A área do trapézio é: " . $areaTrapezio;
+    }//fim do metodo area trapezio ex21
+
+
+    public function diasParaSegundos(float $num1) {
+        $dia = $num1;
+        $segundos = $dia * 86400;;
+
+        return "<br><br> total de segundos: " . $segundos;
+    }//fim do metodo dias para segundos 
+
+
+    public function somaDigitos(float $num1) {
+    // Transforma o número em texto e separa cada dígito
+    $digitos = str_split((string)$num1);
+    
+    // Soma todos os elementos do array
+    $soma = array_sum($digitos);
+
+    return "<br><br> Total da soma dos dígitos: " . $soma;
 }
-?>
+    
+
+} //fim do metodos   
+?> 
