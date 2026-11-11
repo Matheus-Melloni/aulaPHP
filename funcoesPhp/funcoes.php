@@ -225,18 +225,128 @@ class Funcoes {
         $segundos = $dia * 86400;;
 
         return "<br><br> total de segundos: " . $segundos;
-    }//fim do metodo dias para segundos 
+    }//fim do metodo dias para segundos ex22
 
 
     public function somaDigitos(float $num1) {
-    // Transforma o número em texto e separa cada dígito
-    $digitos = str_split((string)$num1);
-    
-    // Soma todos os elementos do array
-    $soma = array_sum($digitos);
+        // Transforma o número em texto e separa cada dígito
+        $digitos = str_split((string)$num1);
+        
+        // Soma todos os elementos do array
+        $soma = array_sum($digitos);
 
-    return "<br><br> Total da soma dos dígitos: " . $soma;
-}
+        return "<br><br> Total da soma dos dígitos: " . $soma;
+    } //ex23
+    
+
+    public function inversoMultiplicativo(float $num1) {
+        return "<br><br> inverso é: $num1 * 1/$num1 ";
+    }//ex24
+
+
+
+    public function hipotenusaEx(float $num1, float $num2) {
+        $somaCateto = pow($num1, 2) + pow($num2, 2);    
+        $hipotenusa = sqrt($somaCateto);
+
+        return "<br><br> A hipotenusa é: " . $hipotenusa;
+    } //ex25
+
+    
+
+    public function convertBinario(float $num1) {
+        $binario = decbin($num1);
+        return "<br><br> em binario: " . $binario;
+    } //ex26
+
+
+    public function convertHexadecimal(float $num1) {
+        $hexadecimal = dechex($num1);
+        return "<br><br> em binario: " . $hexadecimal;
+    } //ex27
+
+
+    public function raizCubica(float $num1) {
+        $raizCubica = pow($num1, 1/3);
+        return "<br><br> em binario: " .$raizCubica;
+    } //ex28
+
+
+    public function montanteJurosSimples(float $num1, float $num2, float $num3) {
+        $jurosSimples = ($num1 * ($num2/100) * $num3);
+        $montante = $num1 + $jurosSimples;
+
+        return "<br><br> Resultado: " .$montante;
+    } //ex29
+
+
+    public function montanteJurosComposto(float $num1, float $num2, float $num3) {
+        $juros = pow((1 +($num2/100)), $num3);
+        $montante = $num1 * $juros;
+
+        return "<br><br> Resultado: " .$montante;
+    } //ex30
+
+
+
+    public function grausRadianos(float $num1) {
+        $radianos = $num1 * 3.14/180;
+
+        return "<br><br> Resultado: " .$radianos;
+    } //ex31
+
+
+    public function converterPorcentagem(float $num1) {
+        $porcentagem = $num1 * 100;
+
+        return "<br><br> Resultado:  .$porcentagem%";
+    } //ex32
+
+
+
+    public function mediaPonderada(float $n1, float $p1, float $n2, float $p2, float $n3, float $p3) {
+        $media = (($n1 * $p1) + ($n2 * $p2) + ($n3 * $p3)) / ($p1 + $p2 + $p3);
+
+        return "<br><br> Resultado: " . $media;
+    } //ex33
+
+
+    public function numInteiroDecimal(float $num1) {
+        $inteiro = $num1 / 10;
+
+        return "<br><br> Resultado: .$num1 <br><br>.$inteiro";
+    } //ex34
+
+
+
+    public function saldoContaBancaria(float $num1) {
+       $rendimento = $num1 * 1/2;
+       $saldo = $num1 + $rendimento;
+
+        return "<br><br> Resultado com rendimento de 0,5: .$saldo <br><br> saldo normal: $num1";
+    } //ex35
+
+
+    public function gastoEnergia(float $num1, float $num2) {
+       $custo = ($num1 * $num2 * 1.20)/1000;
+ 
+        return "<br><br> total a pagar:" .$custo;
+    } //ex36
+
+    public function fParaC(float $num1) {
+       $celsius = ($num1 - 32) *  5/9;
+ 
+        return "<br><br>temperatura:" .$celsius;
+    } //ex37
+
+
+
+    public function densidade(float $num1, float $num2) {
+       $densidade = $num1 / $num2;
+ 
+        return "<br><br> a Densidade é:" .$densidade;
+    } //ex38
+
     
 
 } //fim do metodos   

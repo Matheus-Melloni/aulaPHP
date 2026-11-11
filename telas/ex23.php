@@ -13,7 +13,7 @@
     <title>Somar</title>
 </head>
 <body>
-    <h1>Soma de digitos</h1>
+    <h1>Somar de digitos</h1>
     <form method="POST">
         <label>valor 1: </label>
         <input type="number" id="primeiroNumero" name="primeiroNumero">

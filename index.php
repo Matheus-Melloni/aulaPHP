@@ -18,8 +18,6 @@
     </nav>
 
     <br>
-
-<section>
         <button><a href="telas/somar.php">Somar</a></button><br>
         <button><a href="telas/subtrair.php">Subtrair</a></button><br>
         <button><a href="telas/multiplicar.php">Multiplicar</a></button><br>
@@ -63,7 +61,7 @@
         <button><a href="telas/ex38.php">Calcule a densidade de um objeto com base na massa e volume.</a></button><br>
         <button><a href="telas/ex39.php">Leia um número e exiba seu múltiplo mais próximo de 10.</a></button><br>
         <button><a href="telas/ex40.php">Leia um valor e exiba seu correspondente em octal.</a></button><br>
-    </section>
+
     
 </body>
 </html>
