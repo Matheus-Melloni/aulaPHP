@@ -59,8 +59,31 @@
         <button><a href="telas/ex36.php">Calcule o gasto de energia elétrica com base em potência e tempo de uso.</a></button><br>
         <button><a href="telas/ex37.php">Leia uma temperatura em Fahrenheit e converta para Celsius.</a></button><br>
         <button><a href="telas/ex38.php">Calcule a densidade de um objeto com base na massa e volume.</a></button><br>
-        <button><a href="telas/ex39.php">Leia um número e exiba seu múltiplo mais próximo de 10.</a></button><br>
+        <button><a href="telas/ex39.php">Leia um número e exiba seu múltiplo mais próximo de 10. </a></button><br>
         <button><a href="telas/ex40.php">Leia um valor e exiba seu correspondente em octal.</a></button><br>
+    <br><br>
+    <h2>Ex de condicionais</h2>
+    <br><br>
+
+    <button><a href="telas/exCon1.php">Verifique se um número é positivo, negativo ou zero.</a></button><br>
+    <button><a href="telas/exCon2.php">Leia dois números e exiba o maior.</a></button><br>
+    <button><a href="telas/excon3.php">Leia três números e exiba o maior e o menor.</a></button><br>
+    <button><a href="telas/exCon4.php">Verifique se um ano é bissexto.</a></button><br>
+    <button><a href="telas/exCon5.php">Calcule o IMC e classifique o resultado.</a></button><br>
+    <button><a href="telas/ex41.php">Leia um valor e exiba seu correspondente em octal.</a></button><br>
+    <button><a href="telas/ex41.php">Leia um valor e exiba seu correspondente em octal.</a></button><br>
+    <button><a href="telas/ex41.php">Leia um valor e exiba seu correspondente em octal.</a></button><br>
+    <button><a href="telas/ex41.php">Leia um valor e exiba seu correspondente em octal.</a></button><br>
+    <button><a href="telas/ex41.php">Leia um valor e exiba seu correspondente em octal.</a></button><br>
+    <button><a href="telas/ex41.php">Leia um valor e exiba seu correspondente em octal.</a></button><br>
+    <button><a href="telas/ex41.php">Leia um valor e exiba seu correspondente em octal.</a></button><br>
+    <button><a href="telas/ex41.php">Leia um valor e exiba seu correspondente em octal.</a></button><br>
+    <button><a href="telas/ex41.php">Leia um valor e exiba seu correspondente em octal.</a></button><br>
+    <button><a href="telas/ex41.php">Leia um valor e exiba seu correspondente em octal.</a></button><br>
+    <button><a href="telas/ex41.php">Leia um valor e exiba seu correspondente em octal.</a></button><br>
+    <button><a href="telas/ex41.php">Leia um valor e exiba seu correspondente em octal.</a></button><br>
+    <button><a href="telas/ex41.php">Leia um valor e exiba seu correspondente em octal.</a></button><br>
+
 
     
 </body>

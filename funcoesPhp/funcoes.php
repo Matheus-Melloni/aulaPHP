@@ -347,6 +347,105 @@ class Funcoes {
         return "<br><br> a Densidade é:" .$densidade;
     } //ex38
 
+
+    public function multiploDe10(float $num1): string
+    {
+        $multiploMaisProximo = (int) (round($num1 / 10) * 10);
+
+        return "<br><br>O múltiplo de 10 mais próximo é: " . $multiploMaisProximo;
+    } //ex39
+
+
+    
+    public function numOctal(float $num1): int
+    {
+        $num1 = (int) $num1;
+        $octal = 0;
+
+        for ($casa = 1; $num1 > 0; $num1 = intdiv($num1, 8), $casa *= 10) {
+            $resto = $num1 % 8;
+            $octal += $resto * $casa;
+        }
+
+        return $octal;
+    } //ex39
+
+
+        
+    public function numPositivoNegativoZero(float $num1)
+    {
+        if ($num1 > 0) {
+            $resultado = "$num1 é positivo e maior que zero";
+        } elseif ($num1 < 0) {
+            $resultado = "$num1 é negativo";
+        } else {
+            $resultado = "$num1 é zero";
+        }    
+
+        return "<br><br>" . $resultado;
+    } //condicionais 1
+
+
+
+    public function maiorNum(float $num1, float $num2)
+    {
+        if ($num1 > $num2) {
+            $resultado = "$num1 é maior do que $num2";
+        }else {
+            $resultado = "$num2 é maior do que $num1";
+
+        }    
+
+        return "<br><br>" . $resultado;
+    } //condicionais 2
+
+
+
+    public function maiorTresNum(float $num1, float $num2, float $num3)
+    {
+        if (($num1 > $num2) && ($num1 > $num3)) {
+            $resultado = "$num1 é maior do que $num2 e $num3";
+        }elseif(($num2 > $num1) && ($num2 > $num3)) {
+            $resultado = "$num2 é maior do que $num1 e $num3";
+
+        }elseif (($num3 > $num1) && ($num3 > $num2)){
+            $resultado = "$num3 é maior do que $num1 e $num2";
+
+        } else {
+            $resultado = "Não há um único número maior";
+        }
+
+        return "<br><br>" . $resultado;
+    } //condicionais 3
+
+
+
+    public function anoBissexto(float $num1)
+    {
+        if (($num1 % 4 == 0) && (substr($num1,3,2)/ 400)) {
+            $resultado = "$num1 é bissexto";
+
+        } else {
+            $resultado = "Não é bissexto.";
+        }
+
+        return "<br><br>" . $resultado;
+    } //condicionais 4
+
+
+    public function imc(float $num1)
+    {
+        if (($num1 % 4 == 0) && (substr($num1,3,2)/ 400)) {
+            $resultado = "$num1 é bissexto";
+
+        } else {
+            $resultado = "Não é bissexto.";
+        }
+
+        return "<br><br>" . $resultado;
+    } //condicionais 4
+
+    
     
 
 } //fim do metodos   
