@@ -643,7 +643,7 @@ class Funcoes {
     }//condicionais 17
 
 
-    
+
 
 
     public function contagemCrescente(int $num1) {
@@ -693,6 +693,128 @@ class Funcoes {
 
         return $resultado;
     }//for 4
+
+
+     
+    public function contarNumerosPares(array $numeros): string {
+        $contador = 0;
+
+        foreach ($numeros as $numero) {
+            if ($numero % 2 == 0) {
+                $contador++;
+            }
+        }
+
+        return "Quantidade de números pares: " . $contador;
+    }
+
+
+    
+    public function tabuada(int $num1) {
+        $resultado = "";
+
+        for($i = 1; $i <= 10; $i++) {
+            $multiplicacao = $num1 * $i;
+
+            $resultado .= "$num1 x $i = $multiplicacao <br>";
+        }
+
+        return $resultado;
+    }//for 6
+
+
+
+    public function mediaOitoNotas(array $notas) {
+        $soma = 0;
+
+        for($i = 0; $i < 8; $i++) {
+            $soma += $notas[$i];
+        }
+
+        $media = $soma / 8;
+
+        if($media >= 7) {
+            return "Média: $media - Aprovado!";
+        } else {
+            return "Média: $media - Reprovado!";
+        }
+    }//for 7
+
+
+    
+    public function analisarTemperaturas(array $temperaturas) {
+        $soma = 0;
+        $contador = 0;
+
+        for($i = 0; $i < 7; $i++) {
+            $soma += $temperaturas[$i];
+
+            if($temperaturas[$i] > 30) {
+                $contador++;
+            }
+        }
+
+        $media = $soma / 7;
+
+        return "Média das temperaturas: $media <br>
+                Dias acima de 30 graus: $contador";
+    }//for 8
+
+
+    
+    public function somaImpares(int $num1) {
+        $resultado = 0;
+
+        for($i = 1; $i <= $num1; $i++) {
+            if($i % 2 != 0) {
+                $resultado += $i;
+            }
+        }
+
+        return $resultado;
+    }//for 9
+
+
+    
+    public function calcularFatorial(int $num1) {
+        $resultado = 1;
+
+        for($i = 1; $i <= $num1; $i++) {
+            $resultado *= $i;
+        }
+
+        return $resultado;
+    }//for 10
+
+
+    
+    public function somaQuadrados(int $num1) {
+        $resultado = 0;
+
+        for($i = 1; $i <= $num1; $i++) {
+            $resultado += pow($i, 2);
+        }
+
+        return $resultado;
+    }//for 11
+
+
+    
+    public function divisibilidadeTres(array $numeros) {
+        $divisiveis = 0;
+        $naoDivisiveis = 0;
+
+        for($i = 0; $i < 30; $i++) {
+            if($numeros[$i] % 3 == 0) {
+                $divisiveis++;
+            } else {
+                $naoDivisiveis++;
+            }
+        }
+
+        return "Divisíveis por 3: $divisiveis <br>
+                Não divisíveis por 3: $naoDivisiveis";
+    }// for 12
 
 
 

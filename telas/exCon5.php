@@ -13,7 +13,7 @@
     <title>Somar</title>
 </head>
 <body>
-    <h1>ano bissexto</h1>
+    <h1>IMC</h1>
     <form method="POST">
         <label>numero1: </label>
         <input type="number" id="primeiroNumero" name="primeiroNumero">
@@ -25,7 +25,7 @@
             if(isset($_POST['primeiroNumero'])){
             $num1 = $_POST['primeiroNumero'];
   
-            $resultado = $funcoes->anoBissexto($num1);//Utilizando o método da classe Funcoes
+            $resultado = $funcoes->imc($num1);//Utilizando o método da classe Funcoes
             }            
         ?>
     </button>

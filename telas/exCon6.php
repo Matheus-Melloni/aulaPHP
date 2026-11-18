@@ -13,7 +13,7 @@
     <title>Somar</title>
 </head>
 <body>
-    <h1>idade de votar</h1>
+    <h1>Idade votar</h1>
     <form method="POST">
         <label>idade: </label>
         <input type="number" id="primeiroNumero" name="primeiroNumero">

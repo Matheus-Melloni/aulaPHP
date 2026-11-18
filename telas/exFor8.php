@@ -6,7 +6,7 @@
     $funcoes = new Funcoes();//Criando um vínculo com a classe Funcoes
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,26 +15,44 @@
 <body>
     <h1>Contagem Crescente</h1>
     <form method="POST">
-        <label>Numero: </label>
-        <input type="number" id="primeiroNumero" name="primeiroNumero">
+        <label>Temperatura 1: </label>
+        <input type="numero" step="any" name="temperaturas[]" required><br><br>
+
+        <label>Temperatura 2: </label>
+        <input type="numero" step="any" name="temperaturas[]" required><br><br>
+
+        <label>Temperatura 3: </label>
+        <input type="numero" step="any" name="temperaturas[]" required><br><br>
+
+        <label>Temperatura 4: </label>
+        <input type="numero" step="any" name="temperaturas[]" required><br><br>
+
+        <label>Temperatura 5: </label>
+        <input type="numero" step="any" name="temperaturas[]" required><br><br>
+
+        <label>Temperatura 6: </label>
+        <input type="numero" step="any" name="temperaturas[]" required><br><br>
+
+        <label>Temperatura 7: </label>
+        <input type="numero" step="any" name="temperaturas[]" required><br><br>
 
 
 
         <button type="submit">Calcular
         <?php
-            if(isset($_POST['primeiroNumero'])){
-            $num1 = $_POST['primeiroNumero'];
+            if(isset($_POST['temperaturas'])){
+                $temperaturas = $_POST['temperaturas'];
   
-            $resultado = $funcoes->contagemCrescente($num1);//Utilizando o método da classe Funcoes
+                $resultado = $funcoes->analisarTemperaturas($temperaturas);//Utilizando o método da classe Funcoes
             }            
         ?>
     </button>
     </form>
     <?php
-     if(isset($_POST['primeiroNumero'])){
+     if(isset($_POST['temperaturas'])){
         echo "O resultado é: ".$resultado;
      }else{
-        echo "preencha os campos!";
+        echo "Preencha os campos!";
      }
     ?>
 </body>

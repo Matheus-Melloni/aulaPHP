@@ -13,25 +13,46 @@
     <title>Somar</title>
 </head>
 <body>
-    <h1>Contagem Crescente</h1>
+    <h1>Media nota aluno</h1>
     <form method="POST">
-        <label>Numero: </label>
-        <input type="number" id="primeiroNumero" name="primeiroNumero">
+        <label>Nota 1: </label>
+        <input type="numero" step="any" name="notas[]" required><br><br>
+
+        <label>Nota 2: </label>
+        <input type="numero" step="any" name="notas[]" required><br><br>
+
+        <label>Nota 3: </label>
+        <input type="numero" step="any" name="notas[]" required><br><br>
+
+        <label>Nota 4: </label>
+        <input type="numero" step="any" name="notas[]" required><br><br>
+
+        <label>Nota 5: </label>
+        <input type="numero" step="any" name="notas[]" required><br><br>
+
+        <label>Nota 6: </label>
+        <input type="numero" step="any" name="notas[]" required><br><br>
+
+        <label>Nota 7: </label>
+        <input type="numero" step="any" name="notas[]" required><br><br>
+
+        <label>Nota 8: </label>
+        <input type="numero" step="any" name="notas[]" required><br><br>
 
 
 
         <button type="submit">Calcular
         <?php
-            if(isset($_POST['primeiroNumero'])){
-            $num1 = $_POST['primeiroNumero'];
+            if(isset($_POST['notas'])){
+                $notas = $_POST['notas'];
   
-            $resultado = $funcoes->contagemCrescente($num1);//Utilizando o método da classe Funcoes
+                $resultado = $funcoes->mediaOitoNotas($notas);//Utilizando o método da classe Funcoes
             }            
         ?>
     </button>
     </form>
     <?php
-     if(isset($_POST['primeiroNumero'])){
+     if(isset($_POST['notas'])){
         echo "O resultado é: ".$resultado;
      }else{
         echo "preencha os campos!";

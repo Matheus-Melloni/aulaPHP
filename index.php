@@ -72,16 +72,16 @@
         <button><a href="telas/exCon4.php">Verifique se um ano é bissexto.</a></button><br>
         <button><a href="telas/exCon5.php">Calcule o IMC e classifique o resultado.</a></button><br>
         <button><a href="telas/exCon6.php">Leia idade e verifique se pode votar.</a></button><br>
-        <button><a href="telas/exCon7.php">Leia três notas e informe a situação do aluno.</a></button><br><br>
-        <button><a href="telas/exCon8.php">Verifique se um número está dentro de um intervalo.</a></button><br><br>
-        <button><a href="telas/exCon9.php">Classifique uma pessoa por faixa etária (criança, jovem, adulto, idoso).</a></button><br><br>
-        <button><a href="telas/exCon10.php">Verifique se um triângulo é equilátero, isósceles ou escaleno.</a></button><br><br>
-        <button><a href="telas/exCon11.php">Leia um número de 1 a 7 e mostre o dia da semana.</a></button><br><br>
-        <button><a href="telas/exCon12.php">Leia a nota de um aluno e converta para conceito (A, B, C, D, F).</a></button><br><br>
-        <button><a href="telas/exCon13.php">Leia a temperatura e classifique (frio, agradável, quente).</a></button><br><br>
-        <button><a href="telas/exCon14.php">Leia o tempo de experiência e classifique o profissional (júnior, pleno, sênior).</a></button><br><br>
-        <button><a href="telas/exCon15.php">Leia o peso de um pacote e classifique (leve, médio, pesado).</a></button><br><br>
-        <button><a href="telas/exCon16.php">Leia a idade e verifique se a entrada é permitida (mínimo 16 anos).</a></button><br><br>
+        <button><a href="telas/exCon7.php">Leia três notas e informe a situação do aluno.</a></button><br>
+        <button><a href="telas/exCon8.php">Verifique se um número está dentro de um intervalo.</a></button><br>
+        <button><a href="telas/exCon9.php">Classifique uma pessoa por faixa etária (criança, jovem, adulto, idoso).</a></button><br>
+        <button><a href="telas/exCon10.php">Verifique se um triângulo é equilátero, isósceles ou escaleno.</a></button><br>
+        <button><a href="telas/exCon11.php">Leia um número de 1 a 7 e mostre o dia da semana.</a></button><br>
+        <button><a href="telas/exCon12.php">Leia a nota de um aluno e converta para conceito (A, B, C, D, F).</a></button><br>
+        <button><a href="telas/exCon13.php">Leia a temperatura e classifique (frio, agradável, quente).</a></button><br>
+        <button><a href="telas/exCon14.php">Leia o tempo de experiência e classifique o profissional (júnior, pleno, sênior).</a></button><br>
+        <button><a href="telas/exCon15.php">Leia o peso de um pacote e classifique (leve, médio, pesado).</a></button><br>
+        <button><a href="telas/exCon16.php">Leia a idade e verifique se a entrada é permitida (mínimo 16 anos).</a></button><br>
         <button><a href="telas/exCon17.php">Leia o saldo bancário e verifique se está positivo, negativo ou zerado.</a></button><br>
 
         <br><br>

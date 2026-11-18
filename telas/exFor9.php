@@ -25,7 +25,7 @@
             if(isset($_POST['primeiroNumero'])){
             $num1 = $_POST['primeiroNumero'];
   
-            $resultado = $funcoes->contagemCrescente($num1);//Utilizando o método da classe Funcoes
+            $resultado = $funcoes->somaImpares($num1);//Utilizando o método da classe Funcoes
             }            
         ?>
     </button>

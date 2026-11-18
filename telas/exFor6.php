@@ -13,7 +13,7 @@
     <title>Somar</title>
 </head>
 <body>
-    <h1>Contagem Crescente</h1>
+    <h1>Tabuada</h1>
     <form method="POST">
         <label>Numero: </label>
         <input type="number" id="primeiroNumero" name="primeiroNumero">
@@ -25,7 +25,7 @@
             if(isset($_POST['primeiroNumero'])){
             $num1 = $_POST['primeiroNumero'];
   
-            $resultado = $funcoes->contagemCrescente($num1);//Utilizando o método da classe Funcoes
+            $resultado = $funcoes->tabuada($num1);//Utilizando o método da classe Funcoes
             }            
         ?>
     </button>
