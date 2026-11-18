@@ -61,29 +61,73 @@
         <button><a href="telas/ex38.php">Calcule a densidade de um objeto com base na massa e volume.</a></button><br>
         <button><a href="telas/ex39.php">Leia um número e exiba seu múltiplo mais próximo de 10. </a></button><br>
         <button><a href="telas/ex40.php">Leia um valor e exiba seu correspondente em octal.</a></button><br>
+        
     <br><br>
     <h2>Ex de condicionais</h2>
     <br><br>
 
-    <button><a href="telas/exCon1.php">Verifique se um número é positivo, negativo ou zero.</a></button><br>
-    <button><a href="telas/exCon2.php">Leia dois números e exiba o maior.</a></button><br>
-    <button><a href="telas/excon3.php">Leia três números e exiba o maior e o menor.</a></button><br>
-    <button><a href="telas/exCon4.php">Verifique se um ano é bissexto.</a></button><br>
-    <button><a href="telas/exCon5.php">Calcule o IMC e classifique o resultado.</a></button><br>
-    <button><a href="telas/ex41.php">Leia um valor e exiba seu correspondente em octal.</a></button><br>
-    <button><a href="telas/ex41.php">Leia um valor e exiba seu correspondente em octal.</a></button><br>
-    <button><a href="telas/ex41.php">Leia um valor e exiba seu correspondente em octal.</a></button><br>
-    <button><a href="telas/ex41.php">Leia um valor e exiba seu correspondente em octal.</a></button><br>
-    <button><a href="telas/ex41.php">Leia um valor e exiba seu correspondente em octal.</a></button><br>
-    <button><a href="telas/ex41.php">Leia um valor e exiba seu correspondente em octal.</a></button><br>
-    <button><a href="telas/ex41.php">Leia um valor e exiba seu correspondente em octal.</a></button><br>
-    <button><a href="telas/ex41.php">Leia um valor e exiba seu correspondente em octal.</a></button><br>
-    <button><a href="telas/ex41.php">Leia um valor e exiba seu correspondente em octal.</a></button><br>
-    <button><a href="telas/ex41.php">Leia um valor e exiba seu correspondente em octal.</a></button><br>
-    <button><a href="telas/ex41.php">Leia um valor e exiba seu correspondente em octal.</a></button><br>
-    <button><a href="telas/ex41.php">Leia um valor e exiba seu correspondente em octal.</a></button><br>
-    <button><a href="telas/ex41.php">Leia um valor e exiba seu correspondente em octal.</a></button><br>
+        <button><a href="telas/exCon1.php">Verifique se um número é positivo, negativo ou zero</a></button><br>
+        <button><a href="telas/exCon2.php">Leia dois números e exiba o maior</a></button><br>
+        <button><a href="telas/exCon3.php">Leia três números e exiba o maior e o menor.</a></button><br>
+        <button><a href="telas/exCon4.php">Verifique se um ano é bissexto.</a></button><br>
+        <button><a href="telas/exCon5.php">Calcule o IMC e classifique o resultado.</a></button><br>
+        <button><a href="telas/exCon6.php">Leia idade e verifique se pode votar.</a></button><br>
+        <button><a href="telas/exCon7.php">Leia três notas e informe a situação do aluno.</a></button><br><br>
+        <button><a href="telas/exCon8.php">Verifique se um número está dentro de um intervalo.</a></button><br><br>
+        <button><a href="telas/exCon9.php">Classifique uma pessoa por faixa etária (criança, jovem, adulto, idoso).</a></button><br><br>
+        <button><a href="telas/exCon10.php">Verifique se um triângulo é equilátero, isósceles ou escaleno.</a></button><br><br>
+        <button><a href="telas/exCon11.php">Leia um número de 1 a 7 e mostre o dia da semana.</a></button><br><br>
+        <button><a href="telas/exCon12.php">Leia a nota de um aluno e converta para conceito (A, B, C, D, F).</a></button><br><br>
+        <button><a href="telas/exCon13.php">Leia a temperatura e classifique (frio, agradável, quente).</a></button><br><br>
+        <button><a href="telas/exCon14.php">Leia o tempo de experiência e classifique o profissional (júnior, pleno, sênior).</a></button><br><br>
+        <button><a href="telas/exCon15.php">Leia o peso de um pacote e classifique (leve, médio, pesado).</a></button><br><br>
+        <button><a href="telas/exCon16.php">Leia a idade e verifique se a entrada é permitida (mínimo 16 anos).</a></button><br><br>
+        <button><a href="telas/exCon17.php">Leia o saldo bancário e verifique se está positivo, negativo ou zerado.</a></button><br>
 
+        <br><br>
+        <h2>Exercícios com FOR</h2>
+        <br><br>
+
+        <button><a href="telas/exFor1.php">Contagem crescente</a></button><br>
+        <button><a href="telas/exFor2.php">Contagem regressiva</a></button><br>
+        <button><a href="telas/exFor3.php">Soma de números</a></button><br>
+        <button><a href="telas/exFor4.php">Múltiplos de 7</a></button><br>
+        <button><a href="telas/exFor5.php">Contagem de números pares</a></button><br>
+        <button><a href="telas/exFor6.php">Tabuada personalizada</a></button><br>
+        <button><a href="telas/exFor7.php">Média de notas</a></button><br>
+        <button><a href="telas/exFor8.php">Análise de temperaturas</a></button><br>
+        <button><a href="telas/exFor9.php">Soma dos números ímpares</a></button><br>
+        <button><a href="telas/exFor10.php">Fatorial</a></button><br>
+        <button><a href="telas/exFor11.php">Soma dos quadrados</a></button><br>
+        <button><a href="telas/exFor12.php">Divisibilidade por 3</a></button><br>
+
+        <br><br>
+        <h2>Exercícios com WHILE</h2>
+        <br><br>
+
+        <button><a href="telas/exWhile13.php">Senha de acesso</a></button><br>
+        <button><a href="telas/exWhile14.php">Acumulador de valores</a></button><br>
+        <button><a href="telas/exWhile15.php">Validação de idade</a></button><br>
+        <button><a href="telas/exWhile16.php">Contagem de números positivos</a></button><br>
+        <button><a href="telas/exWhile17.php">Divisão sucessiva</a></button><br>
+        <button><a href="telas/exWhile18.php">Crescimento de investimento</a></button><br>
+        <button><a href="telas/exWhile19.php">Localização de um número</a></button><br>
+        <button><a href="telas/exWhile20.php">Soma dos dígitos</a></button><br>
+        <button><a href="telas/exWhile21.php">Adivinhe o número</a></button><br>
+        <button><a href="telas/exWhile22.php">Contagem regressiva por intervalo</a></button><br>
+
+        <br><br>
+        <h2>Exercícios com DO WHILE</h2>
+        <br><br>
+
+        <button><a href="telas/exDoWhile23.php">Menu de operações matemáticas</a></button><br>
+        <button><a href="telas/exDoWhile24.php">Cadastro de produtos</a></button><br>
+        <button><a href="telas/exDoWhile25.php">Calculadora de média</a></button><br>
+        <button><a href="telas/exDoWhile26.php">Caixa eletrônico</a></button><br>
+        <button><a href="telas/exDoWhile27.php">Pesquisa de satisfação</a></button><br>
+        <button><a href="telas/exDoWhile28.php">Calculadora de descontos</a></button><br>
+        <button><a href="telas/exDoWhile29.php">Controle de acesso</a></button><br>
+        <button><a href="telas/exDoWhile30.php">Conversor de moedas</a></button><br>
 
     
 </body>

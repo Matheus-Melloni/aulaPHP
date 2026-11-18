@@ -432,6 +432,7 @@ class Funcoes {
         return "<br><br>" . $resultado;
     } //condicionais 4
 
+    
 
     public function imc(float $num1)
     {
@@ -443,10 +444,260 @@ class Funcoes {
         }
 
         return "<br><br>" . $resultado;
-    } //condicionais 4
+    } //condicionais 5
+
+
+
+    public function idadeVotar(float $num1)
+    {
+        if ($num1 >= 18 && $num1 < 70) {
+            $resultado = "pode votar, voto obrigatorio";
+
+        } elseif($num1 >= 16) {
+            $resultado = "Não é obrigatorio";   
+        }elseif ($num1 > 69){
+            $resultado = "Voto facultativo";
+        }else{
+            $resultado = "não pode votar";
+        }
+
+        return "<br><br>" . $resultado;
+    } //condicionais 6
+    
+    
+
+       public function verificaAprovacao($n1, $n2, $n3) {
+        $media = ($n1 + $n2 + $n3) / 3;
+        $mediaFormatada = number_format($media, 2, ',', '.');
+ 
+        if ($media >= 7) {
+            return "Média: $mediaFormatada - Aprovado!";
+        } elseif ($media >= 5) {
+            return "Média: $mediaFormatada - Em recuperação.";
+        } else {
+            return "Média: $mediaFormatada - Reprovado.";
+        }
+    }//condicionais 7
+
+
+     public function verificaIntervalo($numero, $minimo, $maximo) {
+   
+        if ($minimo > $maximo) {
+            return "Erro: O valor mínimo não pode ser maior que o máximo.";
+        }
+ 
+        if ($numero >= $minimo && $numero <= $maximo) {
+            return "O número $numero está **dentro** do intervalo [$minimo, $maximo].";
+        } else {
+            return "O número $numero está **fora** do intervalo [$minimo, $maximo].";
+        }
+    }//condicionais 8
+
+ 
+    public function classificaIdade($idade) {
+        if ($idade < 0) {
+            return "Idade inválida.";
+        } elseif ($idade <= 11) {
+            return "Criança";
+        } elseif ($idade <= 17) {
+            return "Jovem";
+        } elseif ($idade <= 59) {
+            return "Adulto";
+        } else {
+            return "Idoso";
+        }
+    }//condicionais 9
+ 
+
+    public function verificaTriangulo($l1, $l2, $l3) {
+        if ($l1 <= 0 || $l2 <= 0 || $l3 <= 0) {
+            return "Os lados devem ser maiores que zero.";
+        }
+ 
+        if (($l1 + $l2 > $l3) && ($l1 + $l3 > $l2) && ($l2 + $l3 > $l1)) {
+            if ($l1 == $l2 && $l2 == $l3) {
+                return "Triângulo Equilátero (todos os lados iguais)";
+            } elseif ($l1 == $l2 || $l2 == $l3 || $l1 == $l3) {
+                return "Triângulo Isósceles (dois lados iguais)";
+            } else {
+                return "Triângulo Escaleno (todos os lados diferentes)";
+            }
+        } else {
+            return "Os valores informados não formam um triângulo válido.";
+        }
+    }//condicionais 10
+
+
+ 
+    public function mostraDiaSemana($dia) {
+        switch ($dia) {
+            case 1:
+                return "Domingo";
+            case 2:
+                return "Segunda-feira";
+            case 3:
+                return "Terça-feira";
+            case 4:
+                return "Quarta-feira";
+            case 5:
+                return "Quinta-feira";
+            case 6:
+                return "Sexta-feira";
+            case 7:
+                return "Sábado";
+            default:
+                return "Número inválido! Digite um valor entre 1 e 7.";
+        }
+    }//condicionais 11
+
+
+ 
+    public function converteConceito($nota) {
+        if ($nota < 0 || $nota > 10) {
+            return "Nota inválida! Digite um valor entre 0 e 10.";
+        }
+ 
+        if ($nota >= 9.0) {
+            return "Nota $nota - Conceito: **A**";
+        } elseif ($nota >= 7.5) {
+            return "Nota $nota - Conceito: **B**";
+        } elseif ($nota >= 6.0) {
+            return "Nota $nota - Conceito: **C**";
+        } elseif ($nota >= 5.0) {
+            return "Nota $nota - Conceito: **D**";
+        } else {
+            return "Nota $nota - Conceito: **F**";
+        }
+    }//condicionais 12
+
+
+ 
+    public function classificaTemperatura($temp) {
+        if ($temp < 18) {
+            return "Temperatura de {$temp}°C: **Frio**";
+        } elseif ($temp <= 26) {
+            return "Temperatura de {$temp}°C: **Agradável**";
+        } else {
+            return "Temperatura de {$temp}°C: **Quente**";
+        }
+    }//condicionais 13
+
+
+ 
+    public function classificaExperiencia($anos) {
+    if ($anos < 0) {
+        return "Tempo de experiência inválido.";
+    }
+ 
+    if ($anos < 3) {
+            return "Nível: **Júnior**";
+        } elseif ($anos < 6) {
+            return "Nível: **Pleno**";
+        } else {
+            return "Nível: **Sênior**";
+        }
+    }//condicionais 14
+ 
+
+
+    public function classificaPacote($peso) {
+        if ($peso < 0) {
+            return "Peso inválido.";
+        }
+ 
+        if ($peso <= 5) {
+            return "Pacote de {$peso}kg - Classificação: **Leve**";
+        } elseif ($peso <= 20) {
+            return "Pacote de {$peso}kg - Classificação: **Médio**";
+        } else {
+            return "Pacote de {$peso}kg - Classificação: **Pesado**";
+        }
+    }//condicionais 15
+
+
+ 
+    public function verificaEntrada($idade) {
+        if ($idade < 0) {
+            return "Idade inválida.";
+        }
+ 
+        if ($idade >= 16) {
+            return "Idade: $idade anos - **Entrada permitida!**";
+        } else {
+            return "Idade: $idade anos - **Entrada negada (mínimo de 16 anos).**";
+        }
+    }//condicionais 16
+
+
+ 
+    public function verificaSaldo($saldo) {
+        $saldoFormatado = number_format($saldo, 2, ',', '.');
+ 
+        if ($saldo > 0) {
+            return "Saldo de R$ $saldoFormatado: **Positivo**";
+        } elseif ($saldo < 0) {
+            return "Saldo de R$ $saldoFormatado: **Negativo**";
+        } else {
+            return "Saldo de R$ $saldoFormatado: **Zerado**";
+        }
+    }//condicionais 17
+
 
     
+
+
+    public function contagemCrescente(int $num1) {
+    $resultado = "";
+
+        for($i = 1; $i <= $num1; $i++) {
+            $resultado .= $i . "<br>";
+        }
+
+        return $resultado;
+    }//for 1 
+
+
+   
+    public function contagemRegressiva(int $num1) {
+        $resultado = "";
+
+        for($i = $num1; $i >= 0; $i--) {
+            $resultado .= $i . "<br>";
+        }
+
+        return $resultado;
+    } //for 2 
+
+
+
+    public function somaNumeros(int $num1) {
+        $resultado = 0;
+
+        for($i = 1; $i <= $num1; $i++) {
+            $resultado += $i;
+        }
+
+        return $resultado;
+    }//for 3
+
+
     
+    public function multiplosDeNumero(int $num1) {
+        $resultado = "";
+
+        for($i = 1; $i <= 100; $i++) {
+            if($i % $num1 == 0) {
+                $resultado .= $i . "<br>";
+            }
+        }
+
+        return $resultado;
+    }//for 4
+
+
+
+  
+
 
 } //fim do metodos   
 ?> 
