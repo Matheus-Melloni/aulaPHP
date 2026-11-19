@@ -11,6 +11,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Classificação de Temperatura</title>
+    <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
     <h1>Verificar Temperatura</h1>

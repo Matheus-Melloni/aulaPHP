@@ -27,6 +27,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício 26 - Caixa Eletrônico</title>
+    <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
     <h1>Caixa eletrônico (Saldo inicial: R$ 1.500,00)</h1>

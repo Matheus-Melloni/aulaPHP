@@ -11,6 +11,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Somar</title>
+    <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
     <h1>Informe o valor que deseja ver a raiz quadrada e cubica</h1>

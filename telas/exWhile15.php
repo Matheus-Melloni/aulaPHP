@@ -10,6 +10,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Validação de idade</title>
+    <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
     <h1>Validação de idade</h1>

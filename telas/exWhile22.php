@@ -11,6 +11,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Contagem regressiva</title>
+    <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
 

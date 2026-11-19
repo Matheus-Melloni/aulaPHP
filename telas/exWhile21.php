@@ -11,6 +11,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Adivinhe o número</title>
+    <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
 

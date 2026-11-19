@@ -27,6 +27,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício 28 - Calculadora de Descontos</title>
+    <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
     <h1>Calculadora de descontos (10% acima de R$ 200,00)</h1>
